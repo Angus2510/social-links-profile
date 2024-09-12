@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="bg-gray-900 flex justify-center align-center min-h-screen ">
-      <div className="container bg-gray-800 w-1/4 rounded-xl flex justify-center mt-16 mb-10 ">
+      <div className="container bg-gray-800 w-80 lg:w-96 rounded-xl flex justify-center mt-16 mb-10 ">
         <div className="flex flex-col items-center justify-center pt-10 mb-10 ">
           <Image
             src="/images/avatar-jessica.jpeg"
